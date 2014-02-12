@@ -2,7 +2,7 @@ Source: x11proto-xinerama
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Julien Cristau <jcristau@debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Cyril Brulebois <kibi@debian.org>
 Build-Depends:
  debhelper (>= 5),
  automake,
@@ -15,6 +15,7 @@ Package: x11proto-xinerama-dev
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libxinerama-dev (<< 2:1.1)
+Multi-Arch: foreign
 Description: X11 Xinerama extension wire protocol
  This package provides development headers describing the wire protocol
  for the XINERAMA extension, used to use and manage a multiple-screen
@@ -24,7 +25,5 @@ Description: X11 Xinerama extension wire protocol
  .
  More information about X.Org can be found at:
  <URL:http://www.X.org>
- <URL:http://xorg.freedesktop.org>
- <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
  .
  This package is built from the X.org xineramaproto proto module.

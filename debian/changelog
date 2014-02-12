@@ -1,3 +1,24 @@
+x11proto-xinerama (1.2.1-2) unstable; urgency=low
+
+  * Mark x11proto-xinerama-dev Multi-Arch: foreign.
+  * Install .pc file to /usr/share/pkgconfig instead of
+    /usr/lib/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Sat, 02 Jul 2011 01:32:50 +0100
+
+x11proto-xinerama (1.2.1-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Jan 2011 17:07:09 +0100
+
 x11proto-xinerama (1.2-2) unstable; urgency=low
 
   * Upload to unstable.
